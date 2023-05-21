@@ -6,6 +6,7 @@ const NavBar = ({getData,dataRate,rating}) => {
 
     return(
     <div className="navbarr">
+        
         <input  type="search" placeholder="Search" onChange={(e)=>getData(e.target.value)}/>
         <button type="submit">Search</button>
         <StarRatingComponent
